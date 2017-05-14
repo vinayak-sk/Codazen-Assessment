@@ -1,10 +1,10 @@
-
+// Class Student
 public class Student {
 	String firstName;
 	String lastName;
 	int age;
 	
-	//Student object with no paramaeters
+	//Student constructor with no paramaeters
 	public Student(){
 		this.age = 0;
 	}
