@@ -1,0 +1,35 @@
+Part 1 Java:
+	Student Class: 
+		- Conatins constrtructer for first name, last name, age
+		- method for returning string in the format of firstName+lastName+age
+
+	Solution:
+		- taking input as any 2 class
+		- inserting students in classA in a HashMap with key as string -> firstName+lastName+age and values as student object
+		- loop over classB and check if these student present in the HashMap i.e. in classA
+		- if found incerase count by 1
+		- return count
+
+	Time Complexity: Big O(n), n being the size of class
+
+	Space Complexity: Space required for storing elements in HashMap i.e. n -> size of classA
+
+Part 2 JavaScript:
+	Student Class: 
+		- Conatins constrtructer for first name, last name, age
+		- method for returning string in the format of firstName+lastName+age
+
+	Solution:
+		- Taking two classes as input to compare
+		- create a diff array containg student object
+		- compare objects in classA and classB
+		- store dissimilar objects in diff array
+		- subtract the size of larger class by diff array size
+		- this will be the count of similar students in both classes
+
+	Time Complexity: Big O(n)
+
+	Space Complexity: Space required for storing diff array
+
+
+Total Number of hours worked on both these solution: 1hr
